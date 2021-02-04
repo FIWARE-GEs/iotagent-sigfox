@@ -27,6 +27,7 @@ jobs:
         upstream_branch: master
         target_branch: master                       # optional
         github_token: ${{ secrets.GITHUB_TOKEN }}   # optional, for accessing repos that require authentication
+        git_pull_args: '--allow-unrelated-histories'
     - name: Revert if no changes
       run: |
         DIFF=$(git diff --shortstat  HEAD HEAD^1)
