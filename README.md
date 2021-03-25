@@ -8,6 +8,7 @@
 [![CI](https://github.com/telefonicaid/sigfox-iotagent/workflows/CI/badge.svg)](https://github.com/telefonicaid/sigfox-iotagent/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/telefonicaid/sigfox-iotagent/badge.svg?branch=master)](https://coveralls.io/github/telefonicaid/sigfox-iotagent?branch=master)
 ![Status](https://nexus.lab.fiware.org/repository/raw/public/badges/statuses/incubating.svg)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4698/badge)](https://bestpractices.coreinfrastructure.org/projects/4698)
 
 An Internet of Things Agent for the [Sigfox](http://www.sigfox.com/en/) callbacks protocol and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
@@ -30,6 +31,7 @@ This project is part of [FIWARE](https://www.fiware.org/). For more information 
 -   [Install](#install)
 -   [Usage](#usage)
 -   [API](#api)
+-   [Contributing](#contributing)
 -   [Testing](#testing)
 -   [License](#license)
 
@@ -77,6 +79,13 @@ Information about how to use the IoT Agent can be found in the [User & Programme
 Apiary reference for the Configuration API can be found
 [here](https://telefonicaiotiotagents.docs.apiary.io/#reference/configuration-api) More information about IoT Agents and
 their APIs can be found in the IoT Agent Library [documentation](https://iotagent-node-lib.readthedocs.io/).
+
+## Contributing
+
+If you'd like to contribute, start by searching through the issues and pull requests to see whether someone else has 
+raised a similar idea or question.
+
+Before contributing, please check out [contribution guidelines](docs/contribution.md)
 
 ## Testing
 
